@@ -106,4 +106,4 @@ dist
 tests
 
 cypress/videos
-**/*/.DS_Store
+.DS_Store

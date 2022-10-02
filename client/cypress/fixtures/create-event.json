@@ -1,0 +1,9 @@
+{
+    "name": "Vuex Event",
+    "venue": "Vuex Store",
+    "date": "2023-01-01T22:00:00.000Z",
+    "time": "12:00AM",
+    "ticketQuantity": 10,
+    "isCancelled": false,
+    "image": "./assets/event-3.jpg"
+}

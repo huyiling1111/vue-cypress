@@ -1,0 +1,10 @@
+[{
+    "_id": "2326192f6b46b46ffe043f99",
+    "name": "Intercepted Event",
+    "venue": "Some Venue",
+    "date": "2024-02-02T22:00:00.000Z",
+    "time": "12:00AM",
+    "ticketQuantity": 150,
+    "isCancelled": false,
+    "image": "./assets/event-1.jpg"
+}]
