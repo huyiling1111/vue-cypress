@@ -1,0 +1,24 @@
+version: '3'
+
+services:
+  server:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8081"
+    working_dir: /usr/src/app/server
+    depends_on:
+      - mongodb
+  client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    working_dir: /usr/src/app/client
+  mongodb:
+    container_name: mongodb
+    image: mongo
+    ports:
+      - 27017:27017
