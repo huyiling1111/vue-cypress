@@ -7,11 +7,17 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
   },
-
   component: {
     devServer: {
       framework: "vue-cli",
       bundler: "webpack",
     },
   },
+  reporter: "junit",
+  reporterOptions: {
+    mochaFile: "tests/TEST-output-[hash].xml",
+    toConsole: true,
+    attachments: true
+  },
+  video: false
 });
